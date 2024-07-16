@@ -4,16 +4,23 @@
 #     print(n1+n2)
 #     print("Gracias por sumar" + n1)
 
-# try:
-#     suma()
-# except TypeError:
-#     print("Estas concatenando tipos distintos") 
-# except ValueError:
-#     print("Eso no es un numero")     
-# else:
-#     print("Todo salio bien")
-# finally:
-#     print("Eso fue todo")       
+
+
+
+try:
+    suma()
+except TypeError:
+    print("Estas concatenando tipos distintos") 
+except ValueError:
+    print("Eso no es un numero")     
+else:
+    print("Todo salio bien")
+finally:
+    print("Eso fue todo")      
+
+
+
+
 
 def pedir_numero():
 
